@@ -1,3 +1,3 @@
 # Trabajo-Sena
 **Hola**
-Aqui se relizara el trabajo de sena gg
+Aqui se realizara el trabajo de sena gg
