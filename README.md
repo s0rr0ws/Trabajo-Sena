@@ -1,3 +1,3 @@
 # Trabajo-Sena
-**Hola** /n
+**Hola**
 Aqui se relizara el trabajo de sena gg
