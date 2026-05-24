@@ -1,0 +1,38 @@
+/*  estilos encabezado */
+.logo{
+    width: 80px;
+    height: auto;
+}
+
+.titulo-principal{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.silencio{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    background: purple;
+}
+
+header{
+    background-color: cadetblue;
+    border: 3px solid black;
+    padding: 0px 5px;
+}
+/* aca termina los estilos del encabezado */
+
+
+/* aca comienza los estilos de los botones de interaccion (ajustes, controles guardado */
+.option-buttons{
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+}
+
+
