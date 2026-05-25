@@ -1,24 +1,33 @@
 /*  estilos encabezado */
+
+/* estilo del logo */
 .logo{
     width: 80px;
     height: auto;
 }
+/* aca termina los estilos del logo */
 
+/* estilo del titulo principal */
 .titulo-principal{
     text-align: center;
     margin-top: 5px;
 }
+/* aca termina los estilos del titulo principal */
 
+/* estilo del boton de silencio */
 .silencio{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     margin: 20px;
     font-size: 20px;
     padding: 15px 30px;
-    border-radius: 40px;
+    border-radius: 60px;
     background: purple;
+    border:1px solid black;
 }
+/* aca termina los estilos del boton de silencio */
+
 
 header{
     background-color: cadetblue;
@@ -29,10 +38,111 @@ header{
 
 
 /* aca comienza los estilos de los botones de interaccion (ajustes, controles guardado */
-.option-buttons{
-    text-align: left;
-    width: 100%;
-    padding: 20px;
+.Option-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
 }
+
+.Option-buttons button{
+    width: 220px;
+    padding:15px 0;
+    font-size: 18px;
+    text-align:center;
+    background-color:grey;
+    color:black;
+    border:none;
+    border-radius: 6px;
+    cursor:pointer;
+    border:2px solid black;
+}
+/* aca terminan los estilos de los botones de interaccion */
+
+/* boton de jugar */
+.play{
+    padding:10% 40px;
+font-size:24px;
+background-color:green;
+color:black;
+border-radius:81px;
+border:2px solid black;
+}
+
+.Main-game{
+    background-color: black;
+    width:700px;
+    height: 200px;
+    margin:0 auto;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 0px;
+}
+/* aca termina el boton de jugar */
+
+/* estilo del boton de cuenta */
+.Button-account{
+     position: absolute;
+    top: 150px;
+    right: 0;
+    margin: 14px;
+    font-size: 24px;
+    padding: 20px 30px;
+    border-radius: 6px;
+    background: grey;
+    border:1px solid black;
+    cursor:pointer;
+}
+/* aca termina el estilo del boton de cuenta */
+
+
+/* boton de salir */
+.Button-exit button{
+    padding: 20px 60px;
+    font-size:24px;
+    background-color:red;
+    color:black;
+    border:none !important;
+    border-radius: 8px;
+    display: block;
+    margin-right: auto;
+    margin-left:0;
+    cursor:pointer;
+    border:2px solid black;
+}
+
+.Button-exit button:hover{
+    background: color #c0392b;
+}
+/* aca termina el boton de salir */
+
+/* personaje interactivo */
+.main-page .Character{
+    display:block;
+    margin-left: auto;
+    margin-right:0;
+    width:200px;
+    height:auto;
+}
+/* termina el estilo del personaje interactivo */
+
+/* estilos de los creditos */
+.Credits{
+    text-align:center;
+    margin-top:5px;
+}
+
+.credits p{
+    margin: 0;
+    font-size:16px;
+    color:black;
+}
+/* termina los estilos de los creditos */
+
+/* fondo de la pagina */
+body{
+    background-color:rgb(59, 53, 53);
+}
+/* aca termina el fondo de la pagina */
 
 
