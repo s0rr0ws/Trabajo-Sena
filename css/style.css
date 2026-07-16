@@ -1,0 +1,172 @@
+* {
+    /* define la feuente para la pagina  */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* elimina las margenes externas */
+    margin: 0;
+    /* elimina los espacios internos */
+    padding: 0;
+    /* hace que el ancho y alto tengan padding y border */
+    box-sizing: border-box;
+}
+/* Estilos para el cuerpo de la pagina */
+body {
+    /* Ocupa el 100% de la altura de la pagina */
+    height: 100vh;
+    /* Activa flexbox para organizar el contenido */
+    display: flex;
+    /* Centra horizontalmente el contenido */
+    justify-content: center;
+    /* Centra verticalmente el contenido */
+    align-items: center;
+    /* Crea un degrade de colores calidos */
+    background: linear-gradient(
+        230deg, /* Direccion diagonal del degradado */
+        #8c99e5, /* Color naranja suave */
+        #557dff, /* Color amarillo suave */
+        #518bdd, /* Color coral */
+        #222e9e  /* Color durazno */
+    );
+
+}
+
+/* Caja del formulario de inicio de sesion */
+.login-container {
+    /* Ancho de caja */
+    width: 350px;
+    /* Color de la caja */
+    background-color: rgba( 255, 255, 255, 0.92);
+    /* Espacio interno */
+    padding: 35px;
+    /* Redondeo de las esquinas de la caja */
+    border-radius: 20px;
+    /* Sombra de la caja */
+    box-shadow: 0 25px 35px rgba(10, 4, 66, 0.35);
+    /* Centra el texto de la caja */
+    text-align: center;
+}
+/* Titulo del formulario de inicio de sesion  */
+.login-container h1 {
+    /* Color naranja oscuro para el título */
+    color: #1408b6;
+
+    /* Espacio inferior debajo del título */
+    margin-bottom: 10px;
+
+    /* Tamaño de la letra del título */
+    font-size: 30px;
+}
+/* Grupo que contiene cada etiqueta y color de entrada */
+.input-group {
+    /* alinea el texto a la izquierda */
+    text-align: left;
+    /* espacio inferior entre cada campo  */
+    margin-bottom: 18px;
+}
+/* Estilos de las etiquetas de los campos */
+.input-group label {
+    /* Hace que la etiqueta ocupe toda la linea */
+    display: block;
+    /* Color cafe calido para la etiqueta */
+    color: #5f57ca;
+    /* Coloca el texto en negrita */
+    font-weight: bold;
+    /* Espacio entre la etiqueta y el campo */
+    margin-bottom: 6px;
+}
+/* Estilos de los campos de entrada */
+.input-group input{
+    /* Hace que el campo ocupe todo el espacio posible */
+    width: 100%;
+    /* Espacio interior */
+    padding: 13px;
+    /* Borde del campo con color calido */
+    border: 2px solid #584cff;
+    /* Redondea las esquinas del campo */
+    border-radius: 12px;
+    /* Elimina el contorno predeterminado */
+    outline: 0;
+    /* Tamaño del texto dentro del campo */
+    font-size: 15px;
+    /* Color de fondo */
+    background-color: #dedde7;
+}
+/* Estilos cuando se hace click o se escribe */
+.input-group input:focus{
+    /* Cambia el color del borde cuando se selecciona */
+    border-color: #030144;
+    /* Agrega una sombra suave */
+    box-shadow: 0 0 10px rgba(5, 15, 156, 0.651);
+    /* Transicion suave */
+    transition: 0.5s;
+}
+/* Contenedor del enlace recuperar contraseña */
+.forgot-password{
+    /* Alinea el enlace a la derecha */
+    text-align: right;
+    /* Espacio inferior */
+    margin-bottom: 22px;
+}
+/* Estilos del enlace */
+.forgot-password a {
+    /* Quita el subrayado del enlace */
+    text-decoration: none;
+    /* Color naranja para el enlace */
+    color: #0004ff;
+    /* Tamaño del texto */
+    font-size: 14px;
+    /* Coloca el texto en negrita */
+    font-weight: bold;
+}
+.forgot-password a:hover {
+    color: #0084ff;
+    transition: 0.5s ease-in-out;
+}
+/* Estilos del boton de login */
+.button-login {
+    /* El boton toma todo el ancho del formulario */
+    width: 100%;
+    /* Espacio interno */
+    padding: 14px;
+    /* Elimina el borde */
+    border: none;
+    /* Redondea las esquinas */
+    border-radius: 14px;
+    /* Fondo degradado del boton */
+    background: linear-gradient(135deg, #222e9e, #557dff);
+    /* Color blanco para el texto */
+    color: white;
+    /* Tamaño del texto del boton */
+    font-size: 17px;
+    /* Coloca el texto en negrita */
+    font-weight: bold;
+    /* Cambia el cursor a una mano */
+    cursor: pointer;
+}
+/* Estilos cuando el cursor pasa sobre el boton */
+.button-login:hover {
+    /* Cambia el degradado del boton */
+    background: linear-gradient(9deg, #222e9e, #557dff);
+    /* Eleva el boton hacia arriba */
+    transform: translateY(-2px);
+    /* Agrega sombra al boton */
+    box-shadow: 0 0 10px rgba(5, 15, 156, 0.651);
+    /* Transicion suave */
+    transition: 0.5s;
+}
+/* Estilos del texto inferior  */
+.footer-text {
+    /* Espacio superior respecto al formulario */
+    margin-top: 22px;
+    /* Tamaño del texto */
+    font-size: 13px;
+    /* Color del texto */
+    color: black;
+}
+/* Estilos del icono */
+.icon {
+    /* Texto grande para el icono */
+    font-size: 45px;
+    /* espacio inferior del icono */
+    margin-bottom: 10px;
+}
+/* Fin de los estilos de CSS */
