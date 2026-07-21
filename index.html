@@ -1,71 +1,59 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titulo que aparece en la pestaña del navegador -->
-    <title>Login :v</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Trabajo.css">
+    <link rel="stylesheet" href="Trabajo.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <!--Se vincula los estilos al login y se agrega el origen de la fuente-->
+    <script src="js/Trabajo.js"></script>
 </head>
 <body>
-    <!--Contenedor del login principal-->
-    <div class="login-container">
-        <!--Icono principal-->
-        <div class="icon">👻</div>
-        <!--Titulo principal-->
-        <h1>Titulo pro gg</h1>
-        <!--Texto de bienvenida-->
-        <p>Bienvenido a la pagina</p>
-        <!-- Campo del formulario para el login -->
-        <form>
-            <!--Campo del correo electronico-->
-            <div class="input-group">
-                <!--Etiqueta del campo correo, se conecta por el id=Correo-->
-                <label for="Correo">Correo electronico</label>
-                <!--Campo para ingresar el correo-->
-                <input
-                    type="email"
-                    id="Correo"
-                    placeholder="Introduzca su correo"
-                    required
-                >
-            <!-- Fin del grupo correo electronico -->
+    <header>
+        <div class="Top">
+            <img src="https://i.redd.it/q1xhhsof1pe81.gif" alt=""class="logo">
+            <h1 class="titulo-principal">Proyecto Sena</h1>
+            <button class="silencio">Mute</button>
+        </div>
+    </header>
+    <main>
+        <!-- Pagina principal -->
+        <div class="main-page">
+            <!-- Link de cuenta -->
+            <div class="Button-account">
+                <button onclick="window.location.href = 'login.html'">Cuenta</button>
             </div>
-            <!-- Contraseña -->
-            <div class="input-group">
-            <!-- Etiqueta del campo contraseña, se conecta por el id password -->
-                <label for="password">Contraseña</label>
-                <!-- Campo para ingresar la contraseña -->
-                <input 
-                    type="password"
-                    id="password"
-                    placeholder="Ingresa tu contraseña"
-                    required
-                >
-            <!-- Fin del grupo Contraseña -->
+        <!-- Botones de interaccion -->
+            <div class="Option-buttons">
+                    <button>Ajustes</button>
+                    <button>Controles</button>
+                    <button>Guardado</button>
             </div>
-            <!-- Contenedor recuperar contraseña -->
-             <div class="forgot-password">
-                <!-- Enlace de recuperacion de contraseña -->
-                <a href="https://google.com">¿Olvidaste la contraseña?</a>
-             <!-- Fin del grupo recuperar contraseña -->
-             </div>
-             <!-- Boton para enviar el formulario -->
-              <button type="submit" class="button-login">
-                Iniciar sesion
-              </button>
-        <!-- Fin del formulario -->
-        </form>
-         <!-- Texto decoratico inferior -->
-          <div class="footer-text">
-            <p>No lo digaaaa, asi noooooooo</p>
-          <!-- fin del texto decorativo -->
-          </div>
-    <!-- fin del contenedor del login  -->
-    </div>
+            <!-- Juego principal -->
+            <div class="Main-game">
+                <!-- Boton para iniciar el juego, ajusta el tamaño del triangulo con el height y width -->
+                <button class="play" onclick="window.location.href = 'login.html'">
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/common-icons-of-software-interface/triangle-play.png" alt="" height="20" width="20">
+                    Jugar
+                </button>
+            </div>
+            <!-- Boton de salir de la pagina -->
+            <div class="Button-exit">
+                <button>Salir</button>
+            </div>
+            <!-- Personaje interactuable -->
+             <div class="Character">
+                <img src="https://i.redd.it/kgegurof1pe81.gif" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="Credits">
+        <p><b>Desarrollado por:</b><br>Javier Alfonso<br>Camilo Veloza<br>Angel Torres<br>Freddy Pardo</p>
+        </div>
+    </footer>
 </body>
 </html>
