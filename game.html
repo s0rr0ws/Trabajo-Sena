@@ -7,7 +7,17 @@
         <link rel="stylesheet" href="assets/css/game.css">
     </head>
     <body data-page="inicio">
-        <main><h1>Mi proyecto productivo</h1></main>
+        <main><h1>Mi proyecto productivo</h1></main><main class="play-layout">
+ <aside id="levelButtons"></aside>
+ <section class="game-stage">
+ <strong id="moves">0</strong>
+ <div id="board" class="board"></div>
+ <button data-move="up">↑</button>
+ <button data-move="left">←</button>
+ <button data-move="right">→</button>
+ <button data-move="down">↓</button>
+ </section>
+</main>
         <script src="assets/js/game.js"></script>
     </body>
 </html>
